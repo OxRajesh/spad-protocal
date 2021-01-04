@@ -24,7 +24,7 @@ library Constants {
     uint256 private constant CHAIN_ID = 56; // BSC 
 
     /* Bootstrapping */
-    uint256 private constant BOOTSTRAPPING_PERIOD = 180; // 180 epochs
+    uint256 private constant BOOTSTRAPPING_PERIOD = 60; // 60 epochs
     uint256 private constant BOOTSTRAPPING_PRICE = 11e17; // 1.10 USDC
     uint256 private constant BOOTSTRAPPING_SUPPLY_CHANGE_LIMIT = 10e16; // 10%
 
@@ -55,7 +55,7 @@ library Constants {
     uint256 private constant GOVERNANCE_EMERGENCY_DELAY = 12; // 12 epochs
 
     /* DAO */
-    uint256 private constant ADVANCE_INCENTIVE = 1e19; // 10 SPAD
+    uint256 private constant ADVANCE_INCENTIVE = 5e18; // 5 SPAD
     uint256 private constant DAO_EXIT_LOCKUP_EPOCHS = 30; // 30 epochs
 
     /* Pool */
@@ -68,7 +68,7 @@ library Constants {
     /* Regulator */
     uint256 private constant SUPPLY_CHANGE_LIMIT = 3e16; // 3%
     uint256 private constant COUPON_SUPPLY_CHANGE_LIMIT = 6e16; // 6%
-    uint256 private constant ORACLE_POOL_RATIO = 20; // 20%
+    uint256 private constant ORACLE_POOL_RATIO = 5550; // 55.5%
     uint256 private constant TREASURY_RATIO = 450; // 4.5%
 
     /* Address */
