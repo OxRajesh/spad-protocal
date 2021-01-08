@@ -32,7 +32,7 @@ contract Implementation is State, Bonding, Market, Regulator, Govern {
 
     function initialize() initializer public {
         // committer reward:
-        mintToAccount(msg.sender, 100e18); // 100 SPAD to committer
+        mintToAccount(msg.sender, 200e18); // 200 SPAD to Deployer & Committer
     }
 
     function advance() external incentivized {

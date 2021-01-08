@@ -47,12 +47,12 @@ library Constants {
     uint256 private constant EPOCH_PERIOD = 14400; // 4 hrs
 
     /* Governance */
-    uint256 private constant GOVERNANCE_PERIOD = 18; // 18 epochs
+    uint256 private constant GOVERNANCE_PERIOD = 6; // 6 epochs
     uint256 private constant GOVERNANCE_EXPIRATION = 4; // 4 + 1 epochs
     uint256 private constant GOVERNANCE_QUORUM = 20e16; // 20%
     uint256 private constant GOVERNANCE_PROPOSAL_THRESHOLD = 5e15; // 0.5%
     uint256 private constant GOVERNANCE_SUPER_MAJORITY = 66e16; // 66%
-    uint256 private constant GOVERNANCE_EMERGENCY_DELAY = 12; // 12 epochs
+    uint256 private constant GOVERNANCE_EMERGENCY_DELAY = 4; // 4 epochs
 
     /* DAO */
     uint256 private constant ADVANCE_INCENTIVE = 5e18; // 5 SPAD
